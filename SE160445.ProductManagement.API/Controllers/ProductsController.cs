@@ -125,7 +125,7 @@ namespace SE160445.ProductManagement.API.Controllers
                 else
                 {
                     // Nếu không, từ chối truy cập và trả về lỗi 403 Forbidden
-                    return StatusCode(StatusCodes.Status403Forbidden, "You do not have permission to access this resource.");
+                    return StatusCode(StatusCodes.Status403Forbidden, "You do not have permission to access this resource ok .");
                 }
 
             }
